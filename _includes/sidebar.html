@@ -57,7 +57,7 @@
         {%- elsif entry.type == 'twitter' -%}
           https://twitter.com/{{ site.twitter.username }}
         {%- elsif entry.type == 'linkedin' -%}
-          https://linedlin.com/in/{{ site.linkedin.username }}
+          https://linkedin.com/in/{{ site.linkedin.username }}
         {%- elsif entry.type == 'email' -%}
           {% assign email = site.social.email | split: '@' %}
           javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
