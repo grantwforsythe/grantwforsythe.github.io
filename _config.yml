@@ -16,7 +16,7 @@ timezone: America/Toronto
 # --------------------------
 title: Grant Forsythe                         # the main title
 
-tagline: A place where I can write about my interests   # it will display as the sub-title
+tagline: My personal (online) journal  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -24,7 +24,7 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://www.grantwforsythe.com'
 
 github:
   username: grantwforsythe             # change to your github username
