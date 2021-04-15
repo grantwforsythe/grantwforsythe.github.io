@@ -29,8 +29,8 @@ url: 'https://www.grantwforsythe.com'
 github:
   username: grantwforsythe             # change to your github username
   
-twitter:
-  username: grantwforsythe            # change to your twitter username
+# twitter:
+#   username: grantwforsythe            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -39,7 +39,7 @@ social:
   email: forsythg@mcmaster.ca             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/grantwforsythe      # change to your twitter homepage
+#     - https://twitter.com/grantwforsythe      # change to your twitter homepage
     - https://github.com/grantwforsythe       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
