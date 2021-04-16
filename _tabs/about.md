@@ -9,4 +9,4 @@ I think the pursuit of knowledge is one way to lead a full and meaningful life. 
 
 Likewise, I have a keen interest in computer science. Back in High School, I was fortunate enough to take a programming class where I learned Java using the NETBEANS IDE. (For a year-end project, I wrote a program that allowed the user to play blackjack with a complete GUI which I thought was pretty neat at the time). Following High School, I stopped studying computer science. It was only after studying mathematics was my interest later rekindled as I truly began to recognize it as a means to solve business/physical problems. 
 
-With continued advancements in machine learning and AI, mathematics and statistics will play an ever-larger role in the future. A future that I intended to be part of it.
+With continued advancements in machine learning and AI, mathematics and statistics will play an ever-larger role in our future. A future that I intended to be part of it.
