@@ -1,7 +1,7 @@
 ---
 title: About
 icon: fas fa-info
-order: 4
+order: 1
 ---
 ![IMG_20190828_084232](https://user-images.githubusercontent.com/23422098/115079540-55cf4d00-9ecf-11eb-9b33-a4510b4fabdf.jpg)
 
