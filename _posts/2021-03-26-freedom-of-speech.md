@@ -4,9 +4,9 @@ date: 2021-03-26T22:26:30-04:00
 categories: [Blogging, Philosophy]
 toc: false
 ---
-
+<!--
 ![Hate Speech](/assets/img/freedom-of-speech/hate-speech.png)
-
+-->
 *This is a revised and shortened version of an essay I wrote for a Philosophy course back in November of 2019. I've edited it slightly, but it's more or less unchanged...*
 
 Freedom of speech is one of humanity's most sacred and cherished rights. In Canada, we can turn to Section 2(b) of the **Canadian Charter of Rights and Freedom** for a constitutional definition of freedom of speech - “freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication”.
