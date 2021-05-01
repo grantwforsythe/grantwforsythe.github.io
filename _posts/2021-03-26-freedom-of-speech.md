@@ -4,6 +4,7 @@ date: 2021-03-26T22:26:30-04:00
 categories: [Blogging, Philosophy]
 image:
   src: https://www.colombotelegraph.com/wp-content/uploads/2017/06/Hate-Speech.jpg
+toc: false
 ---
 
 *This is a revised and shortened version of an essay I wrote for a Philosophy course back in November of 2019. I've edited it slightly, but it's more or less unchanged...*
