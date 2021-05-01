@@ -29,5 +29,4 @@ Freedom of speech is not a right that can be restricted by the state. To sacrifi
 
 ## References
 
-[^mack]: MacKinnon, Catharine A. *Only Words*. Harvard University Press, 1993
-[^wald]: Waldron, Jeremy. *The Harm in Hate Speech*. Harvard University Press, 2012.
+[^mack]: MacKinnon, Catharine A. *Only Words*. Harvard University Press, 1993 [^wald]: Waldron, Jeremy. *The Harm in Hate Speech*. Harvard University Press, 2012.
