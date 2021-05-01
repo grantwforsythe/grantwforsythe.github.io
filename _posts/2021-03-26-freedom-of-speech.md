@@ -4,7 +4,6 @@ date: 2021-03-26T22:26:30-04:00
 categories: [Blogging, Philosophy]
 image:
   src: https://www.colombotelegraph.com/wp-content/uploads/2017/06/Hate-Speech.jpg
-  alt: Hate Speech
 toc: false
 ---
 
@@ -30,4 +29,5 @@ Freedom of speech is not a right that can be restricted by the state. To sacrifi
 
 ## References
 
-[^mack]: MacKinnon, Catharine A. *Only Words*. Harvard University Press, 1993 [^wald]: Waldron, Jeremy. *The Harm in Hate Speech*. Harvard University Press, 2012.
+[^mack]: MacKinnon, Catharine A. *Only Words*. Harvard University Press, 1993
+[^wald]: Waldron, Jeremy. *The Harm in Hate Speech*. Harvard University Press, 2012.
