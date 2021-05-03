@@ -1,3 +1,29 @@
+<!--
+  JS selector for site.
+-->
+
+{% if page.layout == 'home' or page.layout == 'post' %}
+  {% if site.google_analytics.pv.proxy_endpoint or site.google_analytics.pv.cache_path %}
+    <!-- pv-report needs countup.js -->
+    <script async src="https://cdn.jsdelivr.net/npm/countup.js@1.9.3/dist/countUp.min.js"></script>
+    <script async src="{{ '/assets/js/dist/pvreport.min.js' | relative_url }}"></script>
+  {% endif %}
+{% endif %}
+
+<script async src="https://cdn.jsdelivr.net/combine/npm/lozad/dist/lozad.min.js,npm/magnific-popup@1/dist/jquery.magnific-popup.min.js"></script>
+
+{% if page.layout == 'home'
+    or page.layout == 'categories'
+    or page.layout == 'post'
+    or page.layout == 'page' %}
+  {% assign type = page.layout %}
+{% else %}
+  {% assign type = "commons" %}
+{% endif %}
+
+{% assign js = type | prepend: '/assets/js/dist/' | append: '.min.js' %}
+<script defer src="{{ js | relative_url }}"></script>
+
 {% if page.math %}
   <!-- MathJax -->
   <script type="text/x-mathjax-config">
@@ -14,7 +40,24 @@
       }
     });
   </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML">
   </script>
 {% endif %}
+
+{% if jekyll.environment == 'production' %}
+
+  <!-- PWA -->
+  <script defer src="{{ '/app.js' | relative_url }}"></script>
+
+  <!-- GA -->
+  {% if site.google_analytics.id %}
+    {% include google-analytics.html %}
+  {% endif %}
+
+{% endif %}
+
