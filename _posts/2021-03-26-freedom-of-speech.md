@@ -1,7 +1,10 @@
 ---
 title: Freedom of Speech
 date: 2021-03-26T22:26:30-04:00
-categories: [Blogging, Philosophy]
+categories: [Blog, Philosophy]
+tags: [philosophy]  # tags should always be lowercase
+image:
+  src: https://www.colombotelegraph.com/wp-content/uploads/2017/06/Hate-Speech.jpg
 toc: false
 ---
 
