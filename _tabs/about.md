@@ -4,6 +4,7 @@ icon: fas fa-info
 order: 1
 ---
 ![IMG_20190828_084232](https://user-images.githubusercontent.com/23422098/115079540-55cf4d00-9ecf-11eb-9b33-a4510b4fabdf.jpg)
+_Lucerne, Switzerland 2019_
 
 I think the pursuit of knowledge is one way to lead a full and meaningful life. I have always been deeply passionate about mathematics as I find there is an inherent beauty in the subject – whether it be in expressing [abstract problems](https://www.youtube.com/watch?v=OkmNXy7er84&t=5s) or the geometric properties of complex numbers, e.g., the [Mandelbrot set](https://www.youtube.com/watch?v=PD2XgQOyCCk). Consequently, this passion has led me to study the subject at a higher level in University where I have taken mainly applied math and stats courses. 
 
