@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Grant Forsythe</title>
+      <meta name="description" content="I decided to put together this website as a sort of portfolio/profile page where I can compile all my work.">
+      <meta name="keywords" content="Grant, Forsythe, Software, Computer Science, Mathematics, Statistics, Developer, Python, Software Developer, Software Engineer, Back-end">
+      <meta name="author" content="Grant Forsythe">
+      <link rel='stylesheet' href='static/css/styles.css' />
+      <link rel='stylesheet' href='static/css/mobile.css' />
+      <link rel='icon' href='static/imgs/icon.jpg'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body id='body'>
+      <nav class='title fixed-elements'>
+         <div class='container'>
+            <a href='#about' ><i class='fa fa-user fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>About Me</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#portfolio'><i class='fa fa-code-fork fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Portfolio</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#resources'><i class='fa fa-bookmark fa-3x nav-icon small-icon'></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Resources</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='resume/resume.pdf'><i class='fa fa-file-text fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Resumé</b></div>
+            </div></a>
+         </div>
+      </nav>
+      <div class='view'>
+         <div class='main'>
+            <div class='mainhead'>
+               <div class='descrip' id='titlename'>
+                  <h3 class='bigtitle t'>Grant Forsythe</h3>
+               </div>
+               <section id='about'>
+                  <div class="lightback">
+                     <h2 class='indescrip t'>Software Enthusiast / Lifelong Student</h2>
+                     <br><br>
+                     <div class='res-segment centered'>
+                        <div id='tldr-button' class='text-module t' style='display: none;'>TL;DR</div>
+                        <div id='less-button' class='text-module t' style='display: none;'>Less</div> 
+                        <div id='default-button' class='text-module t' style='display: none;'>Default</div>
+                        <div id='more-button' class='text-module t' style='display: none;'>More</div>
+                     </div>
+                     <br><br>
+                     <div class=''></div>
+                     <div id='default' class='subdescrip'>Hello, thanks for stopping by!</div>
+                     <div id='default' class='subdescrip'>I have always been deeply passionate about mathematics as I find there is an inherent beauty in the subject – whether it be in expressing <a href='https://www.youtube.com/watch?v=OkmNXy7er84'>abstract problems</a> or the geometric properties of complex numbers, e.g., the <a href='https://en.wikipedia.org/wiki/Mandelbrot_set'>Mandelbrot set</a>. Consequently, this passion has led me to study the subject at a higher level at McMaster University.</div>
+                     <div id='default' class='subdescrip'>Likewise, I have a keen interest in computer science. In High School, I was fortunate enough to be able to take a programming class where I learned Java. For a year-end project I wrote a program, with a complete GUI, that allowed a user to play blackjack against the computer. Following High School, I stopped studying computer science and it was only after studying mathematics, was my interest later rekindled.</div>
+                     <div id='default' class='subdescrip'>With continued advancements in machine learning and AI, mathematics and statistics will play an ever-larger role in our future. A future that I intended to be part of it.</div>
+                     <br><br>
+                     <script src='static/js/profile.js'></script>
+                  </div>
+               </section>
+               <section id="portfolio">
+                  <div class="lightback">
+                     <h2 class='indescrip t'>Portfolio</h2>
+                     <br>
+                     <p class="centered">
+                        <a href="https://github.com/grantwforsythe/gym-bot" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=grantwforsythe&repo=gym-bot" /></a>
+                        <a href="https://github.com/grantwforsythe/mood" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=grantwforsythe&repo=mood" /></a>
+                        <a href="https://github.com/grantwforsythe/goodwin-keen-model" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=grantwforsythe&repo=goodwin-keen-model" /></a>
+                        <br><br>
+                        <samp>
+                           <a href="https://github.com/grantwforsythe?tab=repositories&language=python" target="_blank"><img alt="Python" src="https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=Python&logoColor=white"></a>
+                        </samp>
+                     </p>
+
+                  </div>
+                  <br>
+               </section>
+            </div>
+            </section>   <section id='resources'>
+            <div class='lightback'>
+               <h2 class='indescrip t'>Resources</h2>
+               <br>
+               <script src='static/js/popup-handler.js'></script>
+               <div id='resource-dir' class='res-segment'>
+                  <table id="resource-table">
+                     <tr>
+                        <th class='t'>Name</th>
+                        <th class='t'>Year</th>
+                        <th>URL</th>
+                     </tr>
+                     <tr>
+                        <td>CS50x <div class='popup' onclick='togglePopup("cs50x")'></div></td>
+                        <td>2021-2022</td>
+                        <td><a href='https://github.com/grantwforsythe/CS50x' class='table-url' target='_blank'><span class='t'>Repository</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Python Morsels <div class='popup' onclick='togglePopup("morsels")'><i class='fa fa-info-circle'></i><span class='popuptext' id='morsels'>Solutions for Weekly Morsels Exercises</span></div></td>
+                        <td>2021</td>
+                        <td><a href='https://github.com/grantwforsythe/morsels' class='table-url' target='_blank'><span class='t'>Solutions</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Project Euler <div class='popup' onclick='togglePopup("euler")'><i class='fa fa-info-circle'></i><span class='popuptext' id='euler'>Solutions for Project Euler problems</span></div></td>
+                        <td>2021</td>
+                        <td><a href='https://github.com/grantwforsythe/project-euler' class='table-url' target='_blank'><span class='t'>Solutions</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Advent of Code 2020 <div class='popup' onclick='togglePopup("aoc2020")'><i class='fa fa-info-circle'></i><span class='popuptext' id='aoc2020'>Solutions for Advent of Code Programming Contest 2020 Advent Calendar</span></div></td>
+                        <td>2020</td>
+                        <td><a href='https://github.com/grantwforsythe/advent-of-code-2020' class='table-url' target='_blank'><span class='t'>Solutions</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>Advent of Code 2019 <div class='popup' onclick='togglePopup("aoc2019")'><i class='fa fa-info-circle'></i><span class='popuptext' id='aoc2019'>Solutions for Advent of Code Programming Contest 2019 Advent Calendar</span></div></td>
+                        <td>2019</td>
+                        <td><a href='https://github.com/grantwforsythe/advent-of-code-2019' class='table-url' target='_blank'><span class='t'>Solutions</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                  </table>
+               </div>
+               <br>
+            </div>
+         </div>
+         <footer class='foot' id='contact'>
+            <a class='legal t'>© 2021 Grant Forsythe</a>
+            <br><br>
+            <a href='https://github.com/grantwforsythe' title='GitHub' target='_blank'><i class='fa fa-github' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a href='https://www.linkedin.com/in/grantwforsythe/' title='LinkedIn' target='_blank'><i class='fa fa-linkedin' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a href='https://twitter.com/grantwforsythe' title='Twitter' target='_blank'><i class='fa fa-twitter' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <br>
+            <br><br><br>
+         </footer>
+      </div>
+      <div class="loader-wrapper" id="load">
+         <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+         window.onload = function() {
+            window.scrollTo(0, 0);
+            document.getElementById("load").className += " loaded";
+         }
+      </script>
+   </body>
+</html>
