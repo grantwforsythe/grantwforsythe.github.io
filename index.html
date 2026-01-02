@@ -117,11 +117,16 @@
          font-weight: 500;
       }
 
-      .social-link:hover {
+      .social-link:hover,
+      .social-link:focus {
          border-color: var(--accent-color);
          color: var(--accent-color);
          transform: translateY(-2px);
          box-shadow: 0 4px 12px rgba(0, 102, 204, 0.1);
+      }
+
+      .social-link:focus {
+         outline: none;
       }
 
       .social-link i {
@@ -214,15 +219,20 @@
       <section class="social-section">
          <h2>Connect With Me</h2>
          <nav class="social-links" aria-label="Social media links">
-            <a href="https://github.com/grantwforsythe" target="_blank" rel="noopener noreferrer"
-               class="social-link github" aria-label="GitHub">
+            <a href="https://github.com/grantwforsythe" target="_blank" rel="noopener noreferrer" class="social-link"
+               aria-label="GitHub">
                <i class="fab fa-github"></i>
                <span>GitHub</span>
             </a>
             <a href="https://www.linkedin.com/in/grantwforsythe/" target="_blank" rel="noopener noreferrer"
-               class="social-link linkedin" aria-label="LinkedIn">
+               class="social-link" aria-label="LinkedIn">
                <i class="fab fa-linkedin"></i>
                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:grantwforsythe@gmail.com" target="_blank" rel="noopener noreferrer" class="social-link"
+               aria-label="Email">
+               <i class="fa-solid fa-envelope"></i>
+               <span>Email</span>
             </a>
          </nav>
       </section>
